@@ -1,0 +1,68 @@
+body {
+  background: rgb(213, 240, 249);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.card {
+  max-width: 300px;
+  padding: 1.5rem 2rem;
+  background: rgb(219, 241, 255);
+  text-align: center;
+  margin: 3rem auto;
+  border: 1px solid transparent;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.card-1 {
+  border-color: rgb(255, 126, 147);
+}
+.card-2 {
+  border-color: blue;
+}
+.card .icon {
+  border-radius: 50%;
+  margin: 5px auto;
+}
+.card-1 .icon {
+  background: pink;
+  height: 40px;
+  width: 40px;
+  
+}
+.card-2 .icon {
+  background: blue;
+  height: 40px;
+  width: 40px;
+  
+}
+.pink-btn {
+  background: rgb(255, 236, 239);
+  color: rgb(224, 69, 95);
+  border: transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+}
+.blue-btn {
+  background: lightblue;
+  border: transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: blue;
+  letter-spacing: 2px;
+}
+.title {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.text {
+  line-height: 1.5rem;
+}
